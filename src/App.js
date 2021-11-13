@@ -1,24 +1,30 @@
-import logo from './logo.svg';
+
 import './App.css';
 
+
+import { EjemploClase } from './components/EjemploClase/EjemploClase';
+import NavBar from './components/NavBar/NavBar';
+import Title from './components/EjemploClase/Title';
+import ItemListContainer from './container/ItemListContainer';
+
+
+
 function App() {
+
+const style ={ backgroundColor: 'grey'}
+let title ="soy titulo"
+let greeting ="greeting"
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-         App de Nico
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          botón
-        </a>
-      </header>
-    </div>
+    <>
+      <div className ="App" style={style}>
+
+    
+      <NavBar/>
+      <ItemListContainer greeting={greeting}/>
+      <Title title ={title}/>
+      <EjemploClase />
+      </div>
+    </>
   );
 }
 

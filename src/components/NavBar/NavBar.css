@@ -1,0 +1,36 @@
+
+.NavBar{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(0, 0, 0);
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px;
+    text-align:center;
+    text-transform: uppercase;
+
+  }
+  .botones{
+      display: flex;
+     
+    
+     }
+  
+  .logo{
+    width: 150px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    margin: 5px;
+    border-radius: 20PX;
+    transition: background-color 1.0s;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+ }
+ .logo:hover{
+    color: rgb(93, 28, 95);
+    cursor: pointer;
+    background-color: rgb(192, 178, 178);
+
+}
+      
+  

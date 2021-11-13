@@ -1,0 +1,9 @@
+.datos{
+    display: flex;
+    font-style: oblique;
+    font-size: large;
+    margin: 20px;
+}
+.datos-input{
+    margin: 10px;
+}
