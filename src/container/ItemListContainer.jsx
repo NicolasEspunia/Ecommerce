@@ -4,9 +4,9 @@ const ItemListContainer = (greeting) => {
     console.log(greeting);
  
 
-        return(
-            <>
-            <p>frase en pantalla</p>
+  
+    return(
+        <>
            
 
         </>

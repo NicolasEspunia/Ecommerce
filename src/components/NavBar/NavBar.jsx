@@ -4,8 +4,8 @@ import './NavBar.css';
 function NavBar(){
     return(
         <nav className="NavBar">
-            <div class ="logo">LogoEcommerce</div>
-        <ul class="botones">
+            <div className ="logo">LogoEcommerce</div>
+        <ul className="botones">
             <button>Monitores</button>
             <button>Gabinetes</button>
             <button>Procesadores</button>

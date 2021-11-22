@@ -3,12 +3,12 @@ import './EjemploClase.css';
 export const EjemploClase = () => {
     return(
         <div className="EjemploClase" >
-            <div class ="datos">
+            <div className ="datos">
 
             <p>
             Ingrese sus datos
             </p>
-           <input class="datos-input"/>
+           <input className="datos-input"/>
 
             </div>
         </div>
